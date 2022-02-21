@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/0c8fb3eda5.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <main class="ping__container">
+      <div class="ping__content-text">
+        <div class="ping-logo"><img src="images/logo.svg" alt="logo"></div>
+        <div class="ping-text">
+          <h1><span>We are launching </span>soon!</h1>
+          <p>Subscribe and get notified</p>
+        </div>
+
+        <div class="ping-input__container">
+          <div class="inputs">
+            <div class="email-input"><input type="email" id="email" placeholder="Your email address..."
+                onfocus="this.placeholder=''" onblur="this.placeholder = 'Your email address...'"></div>
+            <div class="email-button">
+              <a href="#">Notify Me</a>
+            </div>
+          </div>
+          <div class="warning-text">
+            <span id="warning">Please provide a valid email address</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="ping-image">
+        <img src="images/illustration-dashboard.png" alt="ilustration-dashboard">
+      </div>
+
+      <div class="social-links">
+        <div class="social-link">
+          <i class="fa brands fa-facebook-f"></i>
+        </div>
+        <div class="social-link">
+          <i class="fa brands fa-twitter"></i>
+        </div>
+        <div class="social-link">
+          <i class="fa brands fa-instagram"></i>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <span>&copy; Copyright Ping. All rights reserved.</span>
+      </div>
+    </main>
+
+
+
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
